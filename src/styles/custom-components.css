@@ -1,0 +1,13 @@
+/* forms */
+@import "./components/forms/button.css";
+@import "./components/forms/input-group.css";
+
+/* custom components */
+@import "./components/dropdown.css";
+@import "./components/comments.css";
+@import "./components/appbar.css";
+@import "./components/sidebar.css";
+@import "./components/profile-stat.css";
+
+/* common */
+@import "./components/common.css";

@@ -1,0 +1,29 @@
+.input-group {
+  @apply flex flex-col gap-1 max-w-[500px];
+}
+
+.input-group_header {
+  @apply flex items-center justify-between px-1;
+}
+
+.input-group_header > label {
+  @apply uppercase text-sm font-medium tracking-wide;
+}
+
+.input-group > input,
+.input-group > textarea {
+  @apply rounded bg-white  dark:bg-neutral-800 border-neutral-400 dark:border-neutral-700 focus:ring-primary-600;
+}
+
+.box .input-group > input,
+.box .input-group > textarea {
+  @apply dark:bg-neutral-900/40 bg-neutral-100 border-neutral-300 dark:border-neutral-700;
+}
+
+.input-group_error {
+  @apply text-error-600 text-sm hidden items-center gap-0.5;
+}
+
+.input-group[data-invalid="true"] .input-group_error {
+  @apply flex;
+}
